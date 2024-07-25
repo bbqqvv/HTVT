@@ -1,0 +1,23 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "email": "nguyenvana@example.com",
+        "position": "Quản lý"
+      },
+      {
+        "id": 2,
+        "name": "Trần Thị B",
+        "email": "tranthib@example.com",
+        "position": "Nhân viên kinh doanh"
+      },
+      {
+        "id": 3,
+        "name": "Lê Văn C",
+        "email": "levanc@example.com",
+        "position": "Nhân viên kỹ thuật"
+      }
+    ]
+  }
+  
