@@ -1,9 +1,10 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Sidebar from './Sidebar'
-import Header from './Header'
+import { Header } from './Header';
 
-export default function Layout() {
+// Định nghĩa kiểu cho props nếu cần
+const Layout: React.FC = () => {
 	return (
 		<div className="bg-neutral-100 h-screen w-screen overflow-hidden flex flex-row">
 			<Sidebar />
@@ -16,3 +17,6 @@ export default function Layout() {
 		</div>
 	)
 }
+
+export default Layout
+
